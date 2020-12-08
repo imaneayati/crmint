@@ -48,8 +48,8 @@ Audience selection is rule based:
 
 ## Technical Monitoring:
 The native technical mornitoring was chosen for this first use case: 
-1- We will receive email notifications each time the pipeline is run to specify failure/success of execution.
-2- Logs are avaialable for manual verification on the crmint webapp, for debugging and testing.
+1. We will receive email notifications each time the pipeline is run to specify failure/success of execution.
+2. Logs are avaialable for manual verification on the crmint webapp, for debugging and testing.
 
 ## Migration:
 - To facilitate migration, project id variables and data set id variables have been set in crmint settings. To migrate the project to another location, simply change the variable values in the settings and test the pipelines.
