@@ -9,7 +9,7 @@ PVCP is transitioning from traditional ‘manual’ marketing to Precision marke
  to install crmint, follow the quick start guide, using the dev repo instead of the master: 
  https://google.github.io/crmint/docs/quickstart/
  
-####Tips:
+### Tips:
 - In the crmint setup, pull from the dev version not the master version, due to package conflicts the installation will fail otherwise.
 - In the crmint setup always create your bigquery, storage and crmint instance in the same region (EU/ US...), or else exports and table creation will fail.
 - Always specify 'success'/'failure' in starting condition of each job created, or else it will probably fail in this beta crmint version.
