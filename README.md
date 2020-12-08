@@ -31,6 +31,7 @@ Audience selection is rule based:
 Audience selection is rule based:
 - We select only the french market as scope
 - We filter out all burned or expired vouchers
+- We filter out opt-out customers
 - We only select sessions dating 30days for CP & PV (kept low for testing purposes, to be modified in production env) 
 - We filter out all vouchers holders who have done a booking during the last 6 months
 - We select only customers who have been at the last two funnel stages for PV & CP
